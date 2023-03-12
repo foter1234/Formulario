@@ -1,0 +1,44 @@
+.usuario {
+    width: 250px;
+    animation: PTAC22 2s infinite alternate;
+}
+
+.serie .Usuario{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 44px;
+    flex-wrap: wrap;
+}
+.usuario .cabecalho {
+    background-color:  #8dd894;
+    border-radius: 10px 10px 0px 0px;
+}
+.usuario img {
+    width: 130px;
+    border-radius: 50%;
+    position: relative;
+    bottom: -50px;
+}
+
+.usuario .rodape {
+    background: #68c775;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 0px 0px 10px 10px;
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+
+.usuario .rodape h4 {
+    color: #000000;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.usuario .rodape h5 {
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    padding: 0 16px;
+}

@@ -1,0 +1,28 @@
+
+
+.serie { 
+    text-align: center;
+    padding: 32px;
+    width: 95%;
+
+}
+
+.serie h3 {
+    font-size: 32px;
+    border-bottom: 4px solid;
+    display: inline-block;
+    padding-bottom: 8px;
+    animation: PTAC22 2s infinite alternate;
+}
+@keyframes PTAC22 {
+    from {
+      transform: translateX(10px);
+    }
+ 
+  }
+.serie .Usuario{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 44px;
+    flex-wrap: wrap;
+}

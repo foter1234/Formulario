@@ -1,0 +1,77 @@
+h1 {
+    animation-duration: 4s;
+    animation-name: PTAC2;
+    
+  }
+
+  @keyframes PTAC2 {
+    from {
+      margin-left: 90%;
+      width: 150%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  .imgs img {
+    width: 100px;
+    transition: transform 1s;
+    transform: translateX(0) scale(0.5);
+    
+    
+  }
+  img:hover,
+  img:focus {
+    transform: translateX(10px) scale(1.3);
+    
+  }
+
+.Forme {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Forme form {
+    background-color: #42b84c;
+    width: 60%;
+    border-radius: 20px;
+    padding: 36px 64px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.651);
+}
+.Bottone {
+    border-radius: 4px;
+    background-color: #82cc65;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+
+.Bottone span {
+    position: relative;
+    transition: 0.5s;
+}
+.Bottone span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.Bottone:hover span {
+    padding-right: 25px;
+}
+.Bottone:hover span:after {
+    opacity: 1;
+    right: 0;
+}
